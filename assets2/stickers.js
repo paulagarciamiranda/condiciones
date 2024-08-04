@@ -13,6 +13,6 @@ let respuesta = document.querySelector("p");
   } else if (resultado <= 10) {
     respuesta.innerHTML = `Llevas ${resultado} stickers`;
   } else {
-    respuesta.innerHTML = "Debes números que sumen 10 stickers en total";
+    respuesta.innerHTML = "Debes ingresar números que sumen 10 stickers en total";
   }
 };
